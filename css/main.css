@@ -11,18 +11,22 @@ html {
 }
 
 img {
-  display: inline-block;
+  display: block;
   margin: 1.5em;
-  vertical-align: middle;
-  width: auto;
+  width: 100%;
+}
+
+.image {
+  display: inline-block;
+  max-width: 25em;
 }
 
 div {
   display: inline-block;
   max-width: 25rem;
-  text-align: left;
   padding: 1em;
   vertical-align: middle;
+  text-align: left;
 }
 
 .btn {
@@ -42,5 +46,5 @@ section {
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
