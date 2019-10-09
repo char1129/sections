@@ -11,15 +11,18 @@ html {
 }
 
 img {
-  display: block;
+  display: inline-block;
   image-orientation: center;
   margin: 1.5em;
+  vertical-align: middle;
 }
 
 div {
   display: inline-block;
   max-width: 25rem;
   text-align: left;
+  padding: 1em;
+  vertical-align: middle;
 }
 
 .btn {
@@ -32,4 +35,12 @@ div {
 a {
   text-decoration: none;
   color: #333;
+}
+
+section {
+  padding: 2em 0;
+}
+
+body {
+    vertical-align: middle;
 }
