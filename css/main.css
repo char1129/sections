@@ -9,3 +9,15 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+img {
+  display: block;
+  image-orientation: center;
+}
+
+div {
+  display: inline-block;
+  max-width: 25rem;
+  text-align: left;
+
+}
