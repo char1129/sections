@@ -12,9 +12,9 @@ html {
 
 img {
   display: inline-block;
-  image-orientation: center;
   margin: 1.5em;
   vertical-align: middle;
+  width: auto;
 }
 
 div {
@@ -34,7 +34,7 @@ div {
 
 a {
   text-decoration: none;
-  color: #333;
+  color: #666;
 }
 
 section {
@@ -42,5 +42,5 @@ section {
 }
 
 body {
-    vertical-align: middle;
+    margin: 0;
 }
