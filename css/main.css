@@ -64,5 +64,6 @@ a:hover {
 }
 
 p {
+  margin-bottom: 1.5rem;
   padding: .5em 0 0;
 }
