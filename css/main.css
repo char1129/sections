@@ -11,13 +11,13 @@ html {
   box-sizing: inherit;
 }
 
-section {
-  padding: 2em 0;
-  text-align: center;
-}
-
 body {
   margin: 0;
+}
+
+section {
+  padding: 2em 0em;
+  text-align: center;
 }
 
 img {
@@ -29,7 +29,6 @@ img {
   display: inline-block;
   max-width: 25em;
   vertical-align: middle;
-  margin-bottom: 1.5rem;
 }
 
 .paragraph {
@@ -37,7 +36,7 @@ img {
   max-width: 25rem;
   vertical-align: middle;
   text-align: left;
-  padding: 0 2em;
+  padding: 1em;
 }
 
 h1 {
@@ -47,21 +46,21 @@ h1 {
 
 p {
   margin-bottom: 1.5rem;
-  margin-top: 2rem;
+  padding: .5em 0 0;
 }
 
 .btn {
-  padding: .75em;
+  padding: .4em .75em .5em;
   text-align: center;
   border: 3px solid #333;
   border-radius: 10px;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  font-weight: normal;
+  color: #333;
 }
 
 a {
   text-decoration: none;
-  color: #666;
 }
 
 a:hover {
