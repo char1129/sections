@@ -27,6 +27,7 @@ div {
 .image {
   display: inline-block;
   max-width: 25rem;
+  vertical-align: middle;
   margin-bottom: 1rem;
 
 }
@@ -39,6 +40,7 @@ img {
 .paragraph {
   display:inline-block;
   max-width: 25rem;
+  vertical-align: middle;
 }
 
 h2 {
