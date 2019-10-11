@@ -64,6 +64,5 @@ a:hover {
 }
 
 p {
-  font-size: 1rem;
-  padding-top: .5em;
+  padding: .5em 0 0;
 }
