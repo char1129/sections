@@ -17,27 +17,27 @@ body {
 
 section {
   text-align: center;
-  padding: 2em 0;
+  padding: 0;
 }
 
 .image {
   display: inline-block;
   max-width: 25rem;
   vertical-align: middle;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 img {
   display: block;
   width: 100%;
-  padding: 1em 1em 0;
+  padding: 2em 0 0;
 }
 
 .paragraph {
   display: inline-block;
   max-width: 25rem;
   vertical-align: middle;
-  padding: 0 1em 1em;
+  margin: 1rem 0 0 0;
   text-align: left;
 }
 
@@ -52,7 +52,6 @@ h2 {
 p {
   padding-top: .5em;
   padding-bottom: 2em;
-  width: 100%;
 }
 
 .btn {
