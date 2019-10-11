@@ -16,7 +16,8 @@ body {
 }
 
 selection {
-
+padding: 1em;
+text-align: center;
 }
 
 div {
