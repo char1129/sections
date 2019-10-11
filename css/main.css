@@ -20,7 +20,6 @@ img {
   display: inline-block;
   max-width: 25em;
   vertical-align: middle;
-  margin-top: 2rem;
 }
 
 .paragraph {
@@ -28,10 +27,10 @@ img {
   max-width: 25rem;
   vertical-align: middle;
   text-align: left;
-  padding-left: 2em;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  padding-left: 1em;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .btn {
