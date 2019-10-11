@@ -23,13 +23,21 @@ body {
 img {
   display: block;
   width: 100%;
-  padding: 1em 1em 0;
 }
 
 .image {
   display: inline-block;
   max-width: 25em;
   vertical-align: middle;
+  margin-bottom: 1.5rem;
+}
+
+.paragraph {
+  display: inline-block;
+  max-width: 25rem;
+  vertical-align: middle;
+  text-align: left;
+  padding: 0 2em;
 }
 
 h1 {
@@ -40,16 +48,6 @@ h1 {
 p {
   margin-bottom: 1.5rem;
   margin-top: 2rem;
-  padding: 0;
-  padding-right: 2em;
-}
-
-.paragraph {
-  display: inline-block;
-  max-width: 25rem;
-  vertical-align: middle;
-  text-align: left;
-  padding: 0 0 0 1em;
 }
 
 .btn {
