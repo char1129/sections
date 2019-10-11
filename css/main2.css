@@ -25,11 +25,12 @@ div {
 }
 
 .image {
+max-width: 25rem;
 
 }
 
 .paragraph {
-
+max-width: 25rem;
 }
 
 h2 {
