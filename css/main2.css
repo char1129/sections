@@ -16,8 +16,8 @@ body {
 }
 
 selection {
-padding: 1em;
-text-align: center;
+  padding: 1em;
+  text-align: center;
 }
 
 div {
@@ -25,12 +25,17 @@ div {
 }
 
 .image {
-max-width: 25rem;
+  display: inline-block;
+  max-width: 25rem;
+
+}
+
+img {
 
 }
 
 .paragraph {
-max-width: 25rem;
+  max-width: 25rem;
 }
 
 h2 {
