@@ -41,6 +41,7 @@ img {
   display:inline-block;
   max-width: 25rem;
   vertical-align: middle;
+  padding: 2em;
 }
 
 h2 {
