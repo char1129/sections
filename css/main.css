@@ -16,7 +16,7 @@ body {
 }
 
 section {
-  padding: 2em 0em;
+  padding: 1em;
   text-align: center;
 }
 
@@ -39,14 +39,12 @@ img {
   padding: 1em;
 }
 
-h1 {
-  margin-bottom: 1.5rem;
-  font-weight: bold;
+p {
+  padding: 0;
 }
 
-p {
-  margin-bottom: 1.5rem;
-  padding: .5em 0 0;
+h1 {
+  font-weight: bold;
 }
 
 .btn {
@@ -54,7 +52,6 @@ p {
   text-align: center;
   border: 3px solid #333;
   border-radius: 10px;
-  margin-bottom: 2rem;
   font-weight: normal;
   color: #333;
 }
