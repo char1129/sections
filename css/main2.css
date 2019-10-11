@@ -16,7 +16,7 @@ margin: 1rem;
 }
 
 selection {
-  padding: 1em;
+  padding: 1.5em;
   text-align: center;
 }
 
@@ -27,6 +27,7 @@ div {
 .image {
   display: inline-block;
   max-width: 25rem;
+  margin-bottom: 1rem;
 
 }
 
@@ -36,11 +37,13 @@ img {
 }
 
 .paragraph {
+  display:inline-block;
   max-width: 25rem;
 }
 
 h2 {
-
+  display: inline;
+  font-weight: bold;
 }
 
 p {
