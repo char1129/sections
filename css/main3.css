@@ -4,6 +4,7 @@ html {
   font-weight: 400;
   font-family: Lato, sans-serif;
   box-sizing: border-box;
+  margin: 1.5rem;
   line-height: 1.5rem;
 }
 
@@ -12,8 +13,8 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 3rem 1rem 0rem
+  margin: 1.5rem;
+  padding: 0 .5rem .5rem
 }
 
 section {
@@ -51,7 +52,7 @@ h2 {
 
 p {
   margin: 2.5rem 1rem 2rem;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 .btn {
