@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  margin: 1.5rem;
+  margin: inherit;
   padding: 0 .5rem .5rem
 }
 
