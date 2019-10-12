@@ -4,6 +4,7 @@ html {
   font-weight: 400;
   font-family: Lato, sans-serif;
   box-sizing: border-box;
+  margin: 1.5rem;
   line-height: 1.5rem;
 }
 
@@ -17,20 +18,20 @@ body {
 
 section {
   text-align: center;
-  padding: 1em 0 0 .5em;
+  padding: 0;
 }
 
 .image {
   display: inline-block;
   max-width: 25rem;
   vertical-align: middle;
-  margin: 2rem 0 1.5rem 0;
+  margin-bottom: 0;
 }
 
 img {
   display: block;
   width: 100%;
-  padding: 0 2em .5em 0;
+  padding: 0;
 }
 
 .paragraph {
@@ -38,7 +39,7 @@ img {
   max-width: 25rem;
   vertical-align: middle;
   margin: 0;
-  padding: 0 1em 0 0;
+  padding: 0;
   text-align: left;
 }
 
@@ -46,13 +47,13 @@ h2 {
   display: inline;
   font-weight: bold;
   vertical-align: top;
-  margin: 0 0 0 .5rem;
+  margin: 0;
   text-align: left;
 
 }
 
 p {
-  padding: 0em 1em 1em .5em;
+  padding: 0;
 }
 
 .btn {
