@@ -4,7 +4,6 @@ html {
   font-weight: 400;
   font-family: Lato, sans-serif;
   box-sizing: border-box;
-  margin: 1.5rem;
   line-height: 1.5rem;
 }
 
@@ -13,44 +12,45 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 3rem 1rem 0rem
 }
 
 section {
   text-align: center;
-  padding: 0;
 }
 
 .image {
   display: inline-block;
   max-width: 25rem;
   vertical-align: middle;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
 }
 
 img {
   display: block;
   width: 100%;
-  padding: .5em;
 }
 
 .paragraph {
   display: inline-block;
   max-width: 25rem;
   vertical-align: middle;
-  padding: 1em 0 0 .5em;
   text-align: left;
+  margin: 0 0 1rem;
 }
 
 h2 {
-  display: inline;
+  display: block;
   font-weight: bold;
-  vertical-align: top;
-  text-align: left;
-
+  font-size: 1.5em;
+  margin-left: .5em;
+  text-align: top;
 }
 
 p {
-  padding: 0 0 1em;
+  margin: 2.5rem 1rem 2rem;
+  padding-bottom: 2em;
 }
 
 .btn {
@@ -58,6 +58,7 @@ p {
   border-radius: 10px;
   padding: .75em .75em .75em;
   text-align: center;
+  margin: 1em;
 }
 
 a {
