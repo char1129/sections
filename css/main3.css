@@ -1,6 +1,7 @@
 html {
   background-color: #eee9de;
   color: #333;
+  font-weight: 400;
   font-family: Lato, sans-serif;
   box-sizing: border-box;
   margin: 1.5rem;
@@ -17,7 +18,7 @@ body {
 
 section {
   text-align: center;
-  padding: ;
+  padding: 1em, 0 0 0;
 }
 
 .image {
@@ -30,7 +31,7 @@ section {
 img {
   display: block;
   width: 100%;
-  padding: 1em 1em 1em 1em;
+  padding: 1.5em;
 }
 
 .paragraph {
@@ -38,7 +39,7 @@ img {
   max-width: 25rem;
   vertical-align: middle;
   margin: 1rem 0 2rem .5rem;
-  padding-top: 2em;
+  padding: 1em 1em 0 0;
   text-align: left;
 }
 
@@ -46,8 +47,9 @@ h2 {
   display: inline;
   font-weight: bold;
   vertical-align: top;
-  margin: 0;
+  margin: 0 0 0 .5rem;
   text-align: left;
+
 }
 
 p {
