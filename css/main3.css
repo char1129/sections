@@ -13,7 +13,6 @@ html {
 }
 
 body {
-  margin: 0;
 }
 
 section {
@@ -31,15 +30,14 @@ section {
 img {
   display: block;
   width: 100%;
-  padding: 0;
+  padding: .5em;
 }
 
 .paragraph {
   display: inline-block;
   max-width: 25rem;
   vertical-align: middle;
-  margin: 0;
-  padding: 0;
+  padding: 1em 0 0 .5em;
   text-align: left;
 }
 
@@ -47,13 +45,12 @@ h2 {
   display: inline;
   font-weight: bold;
   vertical-align: top;
-  margin: 0;
   text-align: left;
 
 }
 
 p {
-  padding: 0;
+  padding: 0 0 1em;
 }
 
 .btn {
@@ -70,5 +67,4 @@ a {
 
 a:hover {
   color: #fff;
-  background-color: #666;
 }
